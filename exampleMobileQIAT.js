@@ -2,6 +2,7 @@ define(['pipAPI', 'https://baranan.github.io/minno-tasks/quiat8.js'], function(A
     var API = new APIConstructor();
 
 	return iatExtension({
+		isTouch: true,
 		category1 : {
 			name : 'Black people', //Will appear in the data.
 			title : {
