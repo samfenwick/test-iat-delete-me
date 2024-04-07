@@ -46,8 +46,49 @@ define(['pipAPI', 'https://samfenwick.github.io/test-iat-delete-me/iat.js'], fun
 			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
-		},	
-
+		},
+		attribute1 :
+			{
+				name : 'Bad words',
+				title : {
+					media : {word : 'Bad words'},
+					css : {color:'#0000FF','font-size':'1.8em'},
+					height : 4 //Used to position the "Or" in the combined block.
+				},
+				stimulusMedia : [ //Stimuli content as PIP's media objects
+					{word: 'Pain'},
+					{word: 'Humiliate'},
+					{word: 'Horrific'},
+					{word: 'Hate'},
+					{word: 'Bothersome'},
+					{word: 'Detest'},
+					{word: 'Rotten'},
+					{word: 'Poison'}
+				],
+				//Stimulus css
+				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+			},
+			attribute2 :
+			{
+				name : 'Good words',
+				title : {
+					media : {word : 'Good words'},
+					css : {color:'#0000FF','font-size':'1.8em'},
+					height : 4 //Used to position the "Or" in the combined block.
+				},
+				stimulusMedia : [ //Stimuli content as PIP's media objects
+					{word: 'Cheerful'},
+					{word: 'Fantastic'},
+					{word: 'Spectacular'},
+					{word: 'Friendship'},
+					{word: 'Laughing'},
+					{word: 'Cheer'},
+					{word: 'Pleasing'},
+					{word: 'Love'}
+				],
+				//Stimulus css
+				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+			},
 		base_url : {//Where are your images at?
 			image : 'https://baranan.github.io/minno-tasks/images/'
 		} 
