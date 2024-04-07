@@ -90,7 +90,7 @@ define(['pipAPI', 'https://samfenwick.github.io/test-iat-delete-me/iat.js'], fun
 				stimulusCss : {color:'#0000FF','font-size':'2.3em'}
 			},
 		base_url : {//Where are your images at?
-			image : 'https://baranan.github.io/minno-tasks/images/'
+			image : 'https://samfenwick.github.io/test-iat-delete-me/images/'
 		} 
 	});
 });
