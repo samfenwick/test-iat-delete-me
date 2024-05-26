@@ -100,23 +100,23 @@ define([
     },
     remindErrorText:
       '<p align="center" style="font-size:1.2em; font-family:arial">' +
-      'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
+      'If you make a mistake, a red <p style="color:#ff0000"><b>X</b></p> will appear. ' +
       "Press the other key to continue.<p/>",
 
     remindErrorTextTouch:
       '<p align="center" style="font-size:1.4em; font-family:arial">' +
-      'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
+      'If you make a mistake, a red <p style="color:#ff0000"><b>X</b></p> will appear. ' +
       "Touch the other side to continue.<p/>",
     instAttributePractice:
       '<div><p align="center" style="font-size:20px; font-family:arial">' +
-      '<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+      '<p style="color:#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
       '<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-      'Put a left finger on the <b>E</b> key for items that belong to the category <font color="#0000ff">leftAttribute.</font>' +
-      '<br/>Put a right finger on the <b>I</b> key for items that belong to the category <font color="#0000ff">rightAttribute</font>.<br/><br/>' +
-      'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
+      'Put a left finger on the <b>E</b> key for items that belong to the category <p style="color:#0000ff">leftAttribute.</p>' +
+      '<br/>Put a right finger on the <b>I</b> key for items that belong to the category <p style="color:#0000ff">rightAttribute</p>.<br/><br/>' +
+      'If you make a mistake, a red <p style="color:#ff0000"><b>X</b></p> will appear. ' +
       "Press the other key to continue.<br/>" +
       "<u>Go as fast as you can</u> while being accurate.<br/><br/></p>" +
-      '<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+      '<p align="center">Press the <b>space bar</b> when you are ready to start.</p></p></div>',
     instAttributePracticeTouch: [
       "<div>",
       '<p align="center">',
@@ -124,11 +124,11 @@ define([
       "</p>",
       '<p align="left" style="margin-left:5px">',
       "<br/>",
-      'Tap the <b>left</b> green area for items that belong to the category <font color="#0000ff">leftAttribute</font>.<br/>',
-      'Tap the <b>right</b> green area for items that belong to the category <font color="#0000ff">rightAttribute</font>.<br/>',
+      'Tap the <b>left</b> green area for items that belong to the category <p style="color:#0000ff">leftAttribute</p>.<br/>',
+      'Tap the <b>right</b> green area for items that belong to the category <p style="color:#0000ff">rightAttribute</p>.<br/>',
       "Items will appear one at a time.<br/>",
       "<br/>",
-      'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. Touch the other side to continue. <u>Go as fast as you can</u> while being accurate.',
+      'If you make a mistake, a red <p style="color:#ff0000"><b>X</b></p> will appear. Touch the other side to continue. <u>Go as fast as you can</u> while being accurate.',
       "</p>",
       '<p align="center">Touch the <b>lower </b> green area to start.</p>',
       "</div>",
@@ -136,15 +136,15 @@ define([
 
     instCategoriesPractice:
       '<div><p align="center" style="font-size:20px; font-family:arial">' +
-      '<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+      '<p style="color:#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
       '<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-      'Put a left finger on the <b>E</b> key for items that belong to the category <font color="#336600">leftCategory</font>. ' +
-      '<br/>Put a right finger on the <b>I</b> key for items that belong to the category <font color="#336600">rightCategory</font>.<br/>' +
+      'Put a left finger on the <b>E</b> key for items that belong to the category <p style="color:#336600">leftCategory</p>. ' +
+      '<br/>Put a right finger on the <b>I</b> key for items that belong to the category <p style="color:#336600">rightCategory</p>.<br/>' +
       "Items will appear one at a time.<br/><br/>" +
-      'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
+      'If you make a mistake, a red <p style="color:#ff0000"><b>X</b></p> will appear. ' +
       "Press the other key to continue.<br/>" +
       "<u>Go as fast as you can</u> while being accurate.<br/><br/></p>" +
-      '<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+      '<p align="center">Press the <b>space bar</b> when you are ready to start.</p></p></div>',
     instCategoriesPracticeTouch: [
       "<div>",
       '<p align="center">',
@@ -152,11 +152,11 @@ define([
       "</p>",
       '<p align="left" style="margin-left:5px">',
       "<br/>",
-      'Tap the <b>left</b> green area for items that belong to the category <font color="#336600">leftCategory</font>.<br/>',
-      'Tap the <b>right</b> green area for items that belong to the category <font color="#336600">rightCategory</font>.<br/>',
+      'Tap the <b>left</b> green area for items that belong to the category <p style="color:#336600">leftCategory</p>.<br/>',
+      'Tap the <b>right</b> green area for items that belong to the category <p style="color:#336600">rightCategory</p>.<br/>',
       "Items will appear one at a time.<br/>",
       "<br/>",
-      'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. Touch the other side to continue. <u>Go as fast as you can</u> while being accurate.',
+      'If you make a mistake, a red <p style="color:#ff0000"><b>X</b></p> will appear. Touch the other side to continue. <u>Go as fast as you can</u> while being accurate.',
       "</p>",
       '<p align="center">Touch the <b>lower </b> green area to start.</p>',
       "</div>",
@@ -164,15 +164,15 @@ define([
 
     instFirstCombined:
       '<div><p align="center" style="font-size:20px; font-family:arial">' +
-      '<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+      '<p style="color:#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
       '<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
-      'Use the <b>E</b> key for <font color="#336600">leftCategory</font> and for <font color="#0000ff">leftAttribute</font>.<br/>' +
-      'Use the <b>I</b> key for <font color="#336600">rightCategory</font> and for  <font color="#0000ff">rightAttribute</font>.<br/>' +
+      'Use the <b>E</b> key for <p style="color:#336600">leftCategory</p> and for <p style="color:#0000ff">leftAttribute</p>.<br/>' +
+      'Use the <b>I</b> key for <p style="color:#336600">rightCategory</p> and for  <p style="color:#0000ff">rightAttribute</p>.<br/>' +
       "Each item belongs to only one category.<br/><br/>" +
-      'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
+      'If you make a mistake, a red <p style="color:#ff0000"><b>X</b></p> will appear. ' +
       "Press the other key to continue.<br/>" +
       "<u>Go as fast as you can</u> while being accurate.<br/><br/></p>" +
-      '<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+      '<p align="center">Press the <b>space bar</b> when you are ready to start.</p></p></div>',
     instFirstCombinedTouch: [
       "<div>",
       '<p align="center">',
@@ -181,9 +181,9 @@ define([
       "<br/>",
       "<br/>",
       '<p align="left" style="margin-left:5px">',
-      'Tap the <b>left</b> green area for <font color="#336600">leftCategory</font> items and for <font color="#0000ff">leftAttribute</font>.</br>',
-      'Tap the <b>right</b> green area for <font color="#336600">rightCategory</font> items and for <font color="#0000ff">rightAttribute</font>.</br>',
-      'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. Touch the other side to continue. <u>Go as fast as you can</u> while being accurate.</br>',
+      'Tap the <b>left</b> green area for <p style="color:#336600">leftCategory</p> items and for <p style="color:#0000ff">leftAttribute</p>.</br>',
+      'Tap the <b>right</b> green area for <p style="color:#336600">rightCategory</p> items and for <p style="color:#0000ff">rightAttribute</p>.</br>',
+      'If you make a mistake, a red <p style="color:#ff0000"><b>X</b></p> will appear. Touch the other side to continue. <u>Go as fast as you can</u> while being accurate.</br>',
       "</p>",
       '<p align="center">Touch the <b>lower </b> green area to start.</p>',
       "</div>",
@@ -191,14 +191,14 @@ define([
 
     instSecondCombined:
       '<div><p align="center" style="font-size:20px; font-family:arial">' +
-      '<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+      '<p style="color:#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
       '<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
       "This is the same as the previous part.<br/>" +
-      'Use the <b>E</b> key for <font color="#336600">leftCategory</font> and for <font color="#0000ff">leftAttribute</font>.<br/>' +
-      'Use the <b>I</b> key for <font color="#336600">rightCategory</font> and for  <font color="#0000ff">rightAttribute</font>.<br/>' +
+      'Use the <b>E</b> key for <p style="color:#336600">leftCategory</p> and for <p style="color:#0000ff">leftAttribute</p>.<br/>' +
+      'Use the <b>I</b> key for <p style="color:#336600">rightCategory</p> and for  <p style="color:#0000ff">rightAttribute</p>.<br/>' +
       "Each item belongs to only one category.<br/><br/>" +
       "<u>Go as fast as you can</u> while being accurate.<br/><br/></p>" +
-      '<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+      '<p align="center">Press the <b>space bar</b> when you are ready to start.</p></p></div>',
     instSecondCombinedTouch: [
       "<div>",
       '<p align="center"><u>Part blockNum of nBlocks</u></p>',
@@ -206,8 +206,8 @@ define([
       "<br/>",
 
       '<p align="left" style="margin-left:5px">',
-      'Tap the <b>left</b> green area for <font color="#336600">leftCategory</font> items and for <font color="#0000ff">leftAttribute</font>.<br/>',
-      'Tap the <b>right</b> green area for <font color="#336600">rightCategory</font> items and for <font color="#0000ff">rightAttribute</font>.<br/>',
+      'Tap the <b>left</b> green area for <p style="color:#336600">leftCategory</p> items and for <p style="color:#0000ff">leftAttribute</p>.<br/>',
+      'Tap the <b>right</b> green area for <p style="color:#336600">rightCategory</p> items and for <p style="color:#0000ff">rightAttribute</p>.<br/>',
       "<br/>",
       "<u>Go as fast as you can</u> while being accurate.<br/>",
       "</p>",
@@ -217,13 +217,13 @@ define([
 
     instSwitchCategories:
       '<div><p align="center" style="font-size:20px; font-family:arial">' +
-      '<font color="#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
+      '<p style="color:#000000"><u>Part blockNum of nBlocks </u><br/><br/></p>' +
       '<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
       "<b>Watch out, the labels have changed position!</b><br/>" +
-      'Put the left finger on the <b>E</b> key for <font color="#336600">leftCategory</font>.<br/>' +
-      'Put the right finger on the <b>I</b> key for <font color="#336600">rightCategory</font>.<br/><br/>' +
+      'Put the left finger on the <b>E</b> key for <p style="color:#336600">leftCategory</p>.<br/>' +
+      'Put the right finger on the <b>I</b> key for <p style="color:#336600">rightCategory</p>.<br/><br/>' +
       "<u>Go as fast as you can</u> while being accurate.<br/><br/></p>" +
-      '<p align="center">Press the <b>space bar</b> when you are ready to start.</font></p></div>',
+      '<p align="center">Press the <b>space bar</b> when you are ready to start.</p></p></div>',
     instSwitchCategoriesTouch: [
       "<div>",
       '<p align="center">',
@@ -232,11 +232,11 @@ define([
       '<p align="left" style="margin-left:5px">',
       "<br/>",
       "Watch out, the labels have changed position!<br/>",
-      'Tap the <b>left</b> green area for <font color="#336600">leftCategory</font> items.<br/>',
-      'Tap the <b>right</b> green area for <font color="#336600">rightCategory</font> items.<br/>',
+      'Tap the <b>left</b> green area for <p style="color:#336600">leftCategory</p> items.<br/>',
+      'Tap the <b>right</b> green area for <p style="color:#336600">rightCategory</p> items.<br/>',
       "Items will appear one at a time.",
       "<br/>",
-      'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. Touch the other side to continue. <u>Go as fast as you can</u> while being accurate.<br/>',
+      'If you make a mistake, a red <p style="color:#ff0000"><b>X</b></p> will appear. Touch the other side to continue. <u>Go as fast as you can</u> while being accurate.<br/>',
       "</p>",
       '<p align="center">Touch the <b>lower </b> green area to start.</p>',
       "</div>",
