@@ -712,8 +712,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			}],
 
 			touchInputStimuli: [
-				{media:{html:'<div></div>'}, size:{height:48,width:30},css:{background:'#00FF004D', zindex:-1}, location:{right:0}, data:{handle:'right'}},
-				{media:{html:'<div></div>'}, size:{height:48,width:30},css:{background:'#00FF004D', zindex:-1}, location:{left:0}, data:{handle:'left'}}
+				{media:{html:'<div></div>'}, size:{height:48,width:30},css:{background:'#00FF004D', opacity:0.3, zindex:-1, 'will-change': 'transform', transform: 'translateZ(0)'}, location:{right:0}, data:{handle:'right'}},
+				{media:{html:'<div></div>'}, size:{height:48,width:30},css:{background:'#00FF004D', opacity:0.3, zindex:-1, 'will-change': 'transform', transform: 'translateZ(0)'}, location:{left:0}, data:{handle:'left'}}
 			]
 		});
 
