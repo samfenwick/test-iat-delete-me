@@ -99,7 +99,7 @@ define([
       image: "https://samfenwick.github.io/test-iat-delete-me/images/",
     },
     remindErrorText:
-      '<p align="center" style="font-size:0.6em; font-family:arial">' +
+      '<p align="center" style="font-size:1.2em; font-family:arial">' +
       'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. ' +
       "Press the other key to continue.<p/>",
 
@@ -124,8 +124,8 @@ define([
       "</p>",
       '<p align="left" style="margin-left:5px">',
       "<br/>",
-      'Put a left finger over the the <b>left</b> green area for items that belong to the category <font color="#0000ff">leftAttribute</font>.<br/>',
-      'Put a right finger over the <b>right</b> green area for items that belong to the category <font color="#0000ff">rightAttribute</font>.<br/>',
+      'Tap the <b>left</b> green area for items that belong to the category <font color="#0000ff">leftAttribute</font>.<br/>',
+      'Tap the <b>right</b> green area for items that belong to the category <font color="#0000ff">rightAttribute</font>.<br/>',
       "Items will appear one at a time.<br/>",
       "<br/>",
       'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. Touch the other side. <u>Go as fast as you can</u> while being accurate.',
@@ -152,8 +152,8 @@ define([
       "</p>",
       '<p align="left" style="margin-left:5px">',
       "<br/>",
-      'Put a left finger over the <b>left</b> green area for items that belong to the category <font color="#336600">leftCategory</font>.<br/>',
-      'Put a right finger over the <b>right</b> green area for items that belong to the category <font color="#336600">rightCategory</font>.<br/>',
+      'Tap the <b>left</b> green area for items that belong to the category <font color="#336600">leftCategory</font>.<br/>',
+      'Tap the <b>right</b> green area for items that belong to the category <font color="#336600">rightCategory</font>.<br/>',
       "Items will appear one at a time.<br/>",
       "<br/>",
       'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. Touch the other side. <u>Go as fast as you can</u> while being accurate.',
@@ -181,8 +181,8 @@ define([
       "<br/>",
       "<br/>",
       '<p align="left" style="margin-left:5px">',
-      'Put a left finger over the <b>left</b> green area for <font color="#336600">leftCategory</font> items and for <font color="#0000ff">leftAttribute</font>.</br>',
-      'Put a right finger over the <b>right</b> green area for <font color="#336600">rightCategory</font> items and for <font color="#0000ff">rightAttribute</font>.</br>',
+      'Tap the <b>left</b> green area for <font color="#336600">leftCategory</font> items and for <font color="#0000ff">leftAttribute</font>.</br>',
+      'Tap the <b>right</b> green area for <font color="#336600">rightCategory</font> items and for <font color="#0000ff">rightAttribute</font>.</br>',
       'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. Touch the other side. <u>Go as fast as you can</u> while being accurate.</br>',
       "</p>",
       '<p align="center">Touch the <b>lower </b> green area to start.</p>',
@@ -206,8 +206,8 @@ define([
       "<br/>",
 
       '<p align="left" style="margin-left:5px">',
-      'Put a left finger over the <b>left</b> green area for <font color="#336600">leftCategory</font> items and for <font color="#0000ff">leftAttribute</font>.<br/>',
-      'Put a right finger over the <b>right</b> green area for <font color="#336600">rightCategory</font> items and for <font color="#0000ff">rightAttribute</font>.<br/>',
+      'Tap the <b>left</b> green area for <font color="#336600">leftCategory</font> items and for <font color="#0000ff">leftAttribute</font>.<br/>',
+      'Tap the <b>right</b> green area for <font color="#336600">rightCategory</font> items and for <font color="#0000ff">rightAttribute</font>.<br/>',
       "<br/>",
       "<u>Go as fast as you can</u> while being accurate.<br/>",
       "</p>",
@@ -232,8 +232,8 @@ define([
       '<p align="left" style="margin-left:5px">',
       "<br/>",
       "Watch out, the labels have changed position!<br/>",
-      'Put a left finger over the <b>left</b> green area for <font color="#336600">leftCategory</font> items.<br/>',
-      'Put a right finger over the <b>right</b> green area for <font color="#336600">rightCategory</font> items.<br/>',
+      'Tap the <b>left</b> green area for <font color="#336600">leftCategory</font> items.<br/>',
+      'Tap the <b>right</b> green area for <font color="#336600">rightCategory</font> items.<br/>',
       "Items will appear one at a time.",
       "<br/>",
       'If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. Touch the other side. <u>Go as fast as you can</u> while being accurate.<br/>',
