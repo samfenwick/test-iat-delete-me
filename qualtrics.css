@@ -1,0 +1,189 @@
+.matrix .matrix-table .matrix-content {
+  grid-template-columns: minmax(6.25rem, 1fr) 1fr;
+}
+
+.matrix-row:nth-child(odd) > div {
+  background-color: #f5f5f5;
+}
+
+.matrix-accordion
+  *
+  #statement-display-QID70-1
+  > .display-with-image-display.rich-text {
+  visibility: hidden;
+}
+
+.matrix-accordion * span#statement-display-QID70-1::before {
+  content: "Adjective pair 1";
+  font-size: 16px;
+  position: absolute;
+}
+
+.matrix-accordion
+  *
+  #statement-display-QID70-2
+  > .display-with-image-display.rich-text {
+  visibility: hidden;
+}
+
+.matrix-accordion * span#statement-display-QID70-2::before {
+  content: "Adjective pair 2";
+  font-size: 16px;
+  position: absolute;
+}
+
+.matrix-accordion
+  *
+  #statement-display-QID70-3
+  > .display-with-image-display.rich-text {
+  visibility: hidden;
+}
+
+.matrix-accordion * span#statement-display-QID70-3::before {
+  content: "Adjective pair 3";
+  font-size: 16px;
+  position: absolute;
+}
+
+.matrix-accordion
+  *
+  #statement-display-QID70-4
+  > .display-with-image-display.rich-text {
+  visibility: hidden;
+}
+
+.matrix-accordion * span#statement-display-QID70-4::before {
+  content: "Adjective pair 4";
+  font-size: 16px;
+  position: absolute;
+}
+
+.matrix-accordion
+  *
+  #statement-display-QID70-5
+  > .display-with-image-display.rich-text {
+  visibility: hidden;
+}
+
+.matrix-accordion * span#statement-display-QID70-5::before {
+  content: "Adjective pair 5";
+  font-size: 16px;
+  position: absolute;
+}
+
+.matrix-accordion
+  *
+  #statement-display-QID70-6
+  > .display-with-image-display.rich-text {
+  visibility: hidden;
+}
+
+.matrix-accordion * span#statement-display-QID70-6::before {
+  content: "Adjective pair 6";
+  font-size: 16px;
+  position: absolute;
+}
+
+.matrix-accordion
+  *
+  #statement-display-QID70-7
+  > .display-with-image-display.rich-text {
+  visibility: hidden;
+}
+
+.matrix-accordion * span#statement-display-QID70-7::before {
+  content: "Adjective pair 7";
+  font-size: 16px;
+  position: absolute;
+}
+
+.matrix-accordion
+  *
+  #statement-display-QID70-8
+  > .display-with-image-display.rich-text {
+  visibility: hidden;
+}
+
+.matrix-accordion * span#statement-display-QID70-8::before {
+  content: "Adjective pair 8";
+  font-size: 16px;
+  position: absolute;
+}
+
+.matrix-accordion
+  *
+  #statement-display-QID70-9
+  > .display-with-image-display.rich-text {
+  visibility: hidden;
+}
+
+.matrix-accordion * span#statement-display-QID70-9::before {
+  content: "Adjective pair 9";
+  font-size: 16px;
+  position: absolute;
+}
+
+.matrix-accordion
+  *
+  #statement-display-QID70-10
+  > .display-with-image-display.rich-text {
+  visibility: hidden;
+}
+
+.matrix-accordion * span#statement-display-QID70-10::before {
+  content: "Adjective pair 10";
+  font-size: 16px;
+  position: absolute;
+}
+
+.matrix-accordion
+  *
+  #statement-display-QID70-11
+  > .display-with-image-display.rich-text {
+  visibility: hidden;
+}
+
+.matrix-accordion * span#statement-display-QID70-11::before {
+  content: "Adjective pair 11";
+  font-size: 16px;
+  position: absolute;
+}
+
+.matrix-accordion
+  *
+  #statement-display-QID70-12
+  > .display-with-image-display.rich-text {
+  visibility: hidden;
+}
+
+.matrix-accordion * span#statement-display-QID70-12::before {
+  content: "Adjective pair 12";
+  font-size: 16px;
+  position: absolute;
+}
+
+.matrix-accordion
+  *
+  #statement-display-QID70-13
+  > .display-with-image-display.rich-text {
+  visibility: hidden;
+}
+
+.matrix-accordion * span#statement-display-QID70-13::before {
+  content: "Adjective pair 13";
+  font-size: 16px;
+  position: absolute;
+}
+
+.matrix-accordion
+  *
+  #statement-display-QID70-14
+  > .display-with-image-display.rich-text {
+  visibility: hidden;
+}
+
+.matrix-accordion * span#statement-display-QID70-14::before {
+  content: "Adjective pair 14";
+  font-size: 16px;
+  position: absolute;
+}
