@@ -1,13 +1,13 @@
 Qualtrics.SurveyEngine.addOnload(function () {
   // hide question and next button
   var container = this.getQuestionContainer();
-  container.firstChild.style.display = "none";
+  container.querySelector(".Inner").style.display = "none";
   // this.hideNextButton();
-  const nextButton = document.getElementById("next-button");
-  nextButton.firstChild.textContent = "Skip";
+  const nextButton = document.getElementById("NextButton");
+  nextButton.value = "Skip";
 
   function handleOrientationChange() {
-    const nextButton = document.getElementById("next-button");
+    const nextButton = document.getElementById("NextButton");
     // Tweak some CSS properties of the nextButton
     if (window.orientation === 0 || window.orientation === 180) {
       nextButton.style["max-width"] = "120px";

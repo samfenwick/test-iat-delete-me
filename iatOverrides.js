@@ -6,6 +6,14 @@ define([
 
   return iatExtension({
     isTouch: navigator.maxTouchPoints > 0 ? true : false,
+    canvas: {
+      maxWidth: 800,
+      proportions: 0.7,
+      background: "#ffffff",
+      borderWidth: 5,
+      canvasBackground: "#ffffff",
+      borderColor: "lightblue",
+    },
     category1: {
       name: "Fat people", //Will appear in the data.
       title: {
