@@ -2,33 +2,7 @@ Qualtrics.SurveyEngine.addOnload(function () {
   // hide question and next button
   var container = this.getQuestionContainer();
   container.querySelector(".Inner").style.display = "none";
-  // this.hideNextButton();
-  const nextButton = document.getElementById("NextButton");
-  nextButton.value = "Skip";
-
-  function handleOrientationChange() {
-    const nextButton = document.getElementById("NextButton");
-    // Tweak some CSS properties of the nextButton
-    if (window.orientation === 0 || window.orientation === 180) {
-      nextButton.style["max-width"] = "120px";
-      nextButton.style["margin-top"] = "100px";
-    } else {
-      nextButton.style["max-width"] = "120px";
-      nextButton.style["margin-top"] = "4px";
-    }
-  }
-
-  if (navigator.maxTouchPoints > 0) {
-    // Check if the device has touch capabilities
-    window.addEventListener("orientationchange", handleOrientationChange);
-    if (window.orientation === 0 || window.orientation === 180) {
-      nextButton.style["max-width"] = "120px";
-      nextButton.style["margin-top"] = "100px";
-    } else {
-      nextButton.style["max-width"] = "120px";
-      nextButton.style["margin-top"] = "4px";
-    }
-  }
+  this.hideNextButton();
 
   // load MinnoJS from the CDN (you probably don't need to change this)
   var scriptTag = document.createElement("script");
